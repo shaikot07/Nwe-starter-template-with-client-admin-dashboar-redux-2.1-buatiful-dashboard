@@ -26,7 +26,7 @@ const navItems: NavItem[] = [
   {
     icon: <House />,
     name: "Home",
-    path: "/admin/dashboardHome",
+    path: "/dashboard/dashboardHome",
   },
   {
     icon: <Grid2x2 />,
