@@ -3,6 +3,7 @@ import DashboardLayout from "../../layout/DashboardLayout";
 import MainLayout from "../../layout/mainLayout/MainLayout";
 import DashboardHome from "../Dashboard/DashboardHome";
 import Home from "../Home";
+import NotFound from "../OtherPage/NotFound";
 
 const routes = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const routes = createBrowserRouter([
         element: <DashboardHome />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 

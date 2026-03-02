@@ -1,39 +1,46 @@
-import GridShape from "../../components/common/GridShape";
 import { Link } from "react-router";
 
 export default function NotFound() {
   return (
     <>
-      <div className="relative flex flex-col items-center justify-center min-h-screen p-6 overflow-hidden z-1">
-        <GridShape />
-        <div className="mx-auto w-full max-w-[242px] text-center sm:max-w-[472px]">
-          <h1 className="mb-8 font-bold text-gray-800 text-title-md dark:text-white/90 xl:text-title-2xl">
-            ERROR
-          </h1>
+      <section className="py-10 bg-white font-serif min-h-screen flex items-center justify-center">
+        <div className="container mx-auto px-4">
+          <div className="flex justify-center">
+            <div className="text-center max-w-2xl w-full">
+              {/* Background GIF Section */}
+              <div
+                className="h-[400px] bg-center bg-no-repeat flex items-center justify-center animate-pulse"
+                style={{
+                  backgroundImage:
+                    "url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif)",
+                }}
+              >
+                <h1 className="text-[80px] font-bold text-black animate-bounce">
+                  404
+                </h1>
+              </div>
 
-          <img src="/images/error/404.svg" alt="404" className="dark:hidden" />
-          <img
-            src="/images/error/404-dark.svg"
-            alt="404"
-            className="hidden dark:block"
-          />
+              {/* Content Box */}
+              <div className="-mt-12">
+                <h3 className="text-3xl font-semibold mb-3">
+                  Look like you're lost
+                </h3>
 
-          <p className="mt-10 mb-6 text-base text-gray-700 dark:text-gray-400 sm:text-lg">
-            We can’t seem to find the page you are looking for!
-          </p>
+                <p className="text-gray-600 mb-6">
+                  The page you are looking for is not available!
+                </p>
 
-          <Link
-            to="/"
-            className="inline-flex items-center justify-center rounded-lg border border-gray-300 bg-white px-5 py-3.5 text-sm font-medium text-gray-700 shadow-theme-xs hover:bg-gray-50 hover:text-gray-800 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-white/[0.03] dark:hover:text-gray-200"
-          >
-            Back to Home Page
-          </Link>
+                <a
+                  href="/"
+                  className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition duration-300 transform hover:scale-105"
+                >
+                  Go to Home
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        {/* <!-- Footer --> */}
-        <p className="absolute text-sm text-center text-gray-500 -translate-x-1/2 bottom-6 left-1/2 dark:text-gray-400">
-          &copy; {new Date().getFullYear()} - shaikot
-        </p>
-      </div>
+      </section>
     </>
   );
 }
