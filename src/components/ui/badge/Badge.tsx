@@ -31,7 +31,7 @@ const Badge: React.FC<BadgeProps> = ({
 
   // Define size styles
   const sizeStyles = {
-    sm: "text-theme-xs", // Smaller padding and font size
+    sm: "text-xs", // Smaller padding and font size
     md: "text-sm", // Default padding and font size
   };
 
@@ -39,7 +39,7 @@ const Badge: React.FC<BadgeProps> = ({
   const variants = {
     light: {
       primary:
-        "bg-brand-50 text-brand-500 dark:bg-brand-500/15 dark:text-brand-400",
+        "bg-blue-50 text-blue-600 dark:bg-blue-500/15 dark:text-blue-400",
       success:
         "bg-success-50 text-success-600 dark:bg-success-500/15 dark:text-success-500",
       error:
@@ -51,7 +51,7 @@ const Badge: React.FC<BadgeProps> = ({
       dark: "bg-gray-500 text-white dark:bg-white/5 dark:text-white",
     },
     solid: {
-      primary: "bg-brand-500 text-white dark:text-white",
+      primary: "bg-blue-600 text-white dark:text-white",
       success: "bg-success-500 text-white dark:text-white",
       error: "bg-error-500 text-white dark:text-white",
       warning: "bg-warning-500 text-white dark:text-white",

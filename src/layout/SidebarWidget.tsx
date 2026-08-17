@@ -7,7 +7,7 @@ export default function SidebarWidget() {
       <h3 className="mb-2 font-semibold text-gray-900 dark:text-white">
         Dashboard by shaikot
       </h3>
-      <p className="mb-4 text-gray-500 text-theme-sm dark:text-gray-400">
+      <p className="mb-4 text-gray-500 text-sm dark:text-gray-400">
         Make this dashboard only tailwind css by SHAIKOT
       </p>
     </div>

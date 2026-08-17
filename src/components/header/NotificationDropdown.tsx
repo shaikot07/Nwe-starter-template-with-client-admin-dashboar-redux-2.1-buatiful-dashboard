@@ -95,7 +95,7 @@ export default function NotificationDropdown() {
               </span>
 
               <span className="block">
-                <span className="mb-1.5 block  text-theme-sm text-gray-500 dark:text-gray-400 space-x-1">
+                <span className="mb-1.5 block  text-sm text-gray-500 dark:text-gray-400 space-x-1">
                   <span className="font-medium text-gray-800 dark:text-white/90">
                     Terry Franci
                   </span>
@@ -105,7 +105,7 @@ export default function NotificationDropdown() {
                   </span>
                 </span>
 
-                <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
+                <span className="flex items-center gap-2 text-gray-500 text-xs dark:text-gray-400">
                   <span>Project</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
                   <span>5 min ago</span>
@@ -131,7 +131,7 @@ export default function NotificationDropdown() {
               </span>
 
               <span className="block">
-                <span className="mb-1.5 block space-x-1 text-theme-sm text-gray-500 dark:text-gray-400">
+                <span className="mb-1.5 block space-x-1 text-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
                     Alena Franci
                   </span>
@@ -141,7 +141,7 @@ export default function NotificationDropdown() {
                   </span>
                 </span>
 
-                <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
+                <span className="flex items-center gap-2 text-gray-500 text-xs dark:text-gray-400">
                   <span>Project</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
                   <span>8 min ago</span>
@@ -167,7 +167,7 @@ export default function NotificationDropdown() {
               </span>
 
               <span className="block">
-                <span className="mb-1.5 block space-x-1 text-theme-sm text-gray-500 dark:text-gray-400">
+                <span className="mb-1.5 block space-x-1 text-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
                     Jocelyn Kenter
                   </span>
@@ -177,7 +177,7 @@ export default function NotificationDropdown() {
                   </span>
                 </span>
 
-                <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
+                <span className="flex items-center gap-2 text-gray-500 text-xs dark:text-gray-400">
                   <span>Project</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
                   <span>15 min ago</span>
@@ -204,7 +204,7 @@ export default function NotificationDropdown() {
               </span>
 
               <span className="block">
-                <span className="mb-1.5 space-x-1 block text-theme-sm text-gray-500 dark:text-gray-400">
+                <span className="mb-1.5 space-x-1 block text-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
                     Brandon Philips
                   </span>
@@ -214,7 +214,7 @@ export default function NotificationDropdown() {
                   </span>
                 </span>
 
-                <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
+                <span className="flex items-center gap-2 text-gray-500 text-xs dark:text-gray-400">
                   <span>Project</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
                   <span>1 hr ago</span>
@@ -240,7 +240,7 @@ export default function NotificationDropdown() {
               </span>
 
               <span className="block">
-                <span className="mb-1.5 block space-x-1 text-theme-sm text-gray-500 dark:text-gray-400">
+                <span className="mb-1.5 block space-x-1 text-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
                     Terry Franci
                   </span>
@@ -250,7 +250,7 @@ export default function NotificationDropdown() {
                   </span>
                 </span>
 
-                <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
+                <span className="flex items-center gap-2 text-gray-500 text-xs dark:text-gray-400">
                   <span>Project</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
                   <span>5 min ago</span>
@@ -276,7 +276,7 @@ export default function NotificationDropdown() {
               </span>
 
               <span className="block">
-                <span className="mb-1.5 block space-x-1 text-theme-sm text-gray-500 dark:text-gray-400">
+                <span className="mb-1.5 block space-x-1 text-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
                     Alena Franci
                   </span>
@@ -286,7 +286,7 @@ export default function NotificationDropdown() {
                   </span>
                 </span>
 
-                <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
+                <span className="flex items-center gap-2 text-gray-500 text-xs dark:text-gray-400">
                   <span>Project</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
                   <span>8 min ago</span>
@@ -312,7 +312,7 @@ export default function NotificationDropdown() {
               </span>
 
               <span className="block">
-                <span className="mb-1.5 block  space-x-1 text-theme-sm text-gray-500 dark:text-gray-400">
+                <span className="mb-1.5 block  space-x-1 text-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
                     Jocelyn Kenter
                   </span>
@@ -322,7 +322,7 @@ export default function NotificationDropdown() {
                   </span>
                 </span>
 
-                <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
+                <span className="flex items-center gap-2 text-gray-500 text-xs dark:text-gray-400">
                   <span>Project</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
                   <span>15 min ago</span>
@@ -348,7 +348,7 @@ export default function NotificationDropdown() {
               </span>
 
               <span className="block">
-                <span className="mb-1.5 block space-x-1 text-theme-sm text-gray-500 dark:text-gray-400">
+                <span className="mb-1.5 block space-x-1 text-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
                     Brandon Philips
                   </span>
@@ -358,7 +358,7 @@ export default function NotificationDropdown() {
                   </span>
                 </span>
 
-                <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
+                <span className="flex items-center gap-2 text-gray-500 text-xs dark:text-gray-400">
                   <span>Project</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
                   <span>1 hr ago</span>
