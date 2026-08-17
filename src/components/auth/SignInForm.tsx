@@ -12,7 +12,7 @@ export default function SignInForm() {
       <div className="w-full max-w-md mx-auto">
         {/* Heading */}
         <h1 className="text-2xl font-semibold text-gray-800 dark:text-white mb-2">
-          Sign In
+          Sign In bro
         </h1>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
           Enter your email and password to sign in!
